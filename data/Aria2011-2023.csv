@@ -32,17 +32,17 @@ Digital Album,0,61700476,2015
 Digital Album,0,53248909,2016
 Digital Album,0,20743780,2019
 Digital Album,0,14738010,2020
-Digital Other **,0,5744456,2011
-Digital Other **,0,8621091,2012
-Digital Other **,0,6779543,2013
-Digital Other **,0,1934340,2014
-Digital Other **,0,2505159,2015
-Digital Other **,0,3652976,2016
-Digital Other **,0,3245070,2019
-Digital Other **,0,1679630,2020
-Digital Other **,0,1699358,2021
-Digital Other **,0,1403778,2022
-Digital Other **,0,988771,2023
+Digital Other,0,5744456,2011
+Digital Other,0,8621091,2012
+Digital Other,0,6779543,2013
+Digital Other,0,1934340,2014
+Digital Other,0,2505159,2015
+Digital Other,0,3652976,2016
+Digital Other,0,3245070,2019
+Digital Other,0,1679630,2020
+Digital Other,0,1699358,2021
+Digital Other,0,1403778,2022
+Digital Other,0,988771,2023
 Digital Track,68473070,79552930,2011
 Digital Track,110419156,98287835,2012
 Digital Track,106961693,94869698,2013
@@ -81,17 +81,17 @@ Music Video/DVD,136189,1723540,2020
 Music Video/DVD,85102,1267178,2021
 Music Video/DVD,55622,805954,2022
 Music Video/DVD,37254,540184,2023
-Other *,584,8913,2011
-Other *,4457,62955,2012
-Other *,389,5122,2013
-Other *,5164,84577,2014
-Other *,4837,40957,2015
-Other *,2690,18852,2016
-Other *,1504,24930,2019
-Other *,2336,37450,2020
-Other *,2802,41840,2021
-Other *,8829,64877,2022
-Other *,1706,97897,2023
+Physical Other,584,8913,2011
+Physical Other,4457,62955,2012
+Physical Other,389,5122,2013
+Physical Other,5164,84577,2014
+Physical Other,4837,40957,2015
+Physical Other,2690,18852,2016
+Physical Other,1504,24930,2019
+Physical Other,2336,37450,2020
+Physical Other,2802,41840,2021
+Physical Other,8829,64877,2022
+Physical Other,1706,97897,2023
 Singles,133797,632187,2014
 Singles,66538,302790,2015
 Singles,72345,419632,2016
@@ -149,3 +149,4 @@ Vinyl Albums,1183378,42132289,2023
 Vinyl Singles,13637,126295,2011
 Vinyl Singles,21623,185512,2012
 Vinyl Singles,10069,124715,2013
+
