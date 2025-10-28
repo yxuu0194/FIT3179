@@ -1,0 +1,56 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+  "height":"container",
+  "width":"container",
+  "data": {"url": "https://raw.githubusercontent.com/yxuu0194/FIT3179/refs/heads/main/data/Aria2011-2023.csv"},
+  "transform": [
+    {
+      "filter": "!(datum.Configuration === 'Grand Totals' || datum.Configuration === 'Total Digital' || datum.Configuration === 'Total Physical')"
+    }
+  ],
+  "title":"Net Sales of Music in Australia",
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "title": "Year"
+    },
+    "y": {
+      "aggregate": "sum",
+      "type": "quantitative",
+      "field": "Dollar Value",
+      "title": "Total Sales ($AUD)"
+    },
+    "color": {
+      "field": "Configuration",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Vinyl Albums",
+          "Vinyl Singles",
+          "Singles",
+          "Compact Disc",
+          "CD Albums",
+          "CD Singles",
+          "Music Video/DVD",
+          "Physical Other",
+          "Downloads",
+          "Subscription Services Income",
+          "Video Streaming",
+          "Digital Track",
+          "Digital Album",
+          "Mobile Master Ringtones",
+          "Ad Supported Models",
+          "Digital Other"
+        ],
+        "range": ["#003f5c","#003f5c","#003f5c","#00bbff","#00bbff","#00bbff","#a274ff","#a0a0a0","#ffec63","#d1baff","#c4f335","#d45087","#f95d6a","#ff7c43","#ffa600","#a0a0a0"]
+      },
+      "title": "Sale Type"
+    },
+    "tooltip": [
+      {"field": "Configuration", "type": "nominal"},
+      {"field": "Dollar Value", "type": "quantitative", "format":","}
+    ]
+  }
+}
