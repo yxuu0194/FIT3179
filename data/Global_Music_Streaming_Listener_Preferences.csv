@@ -1,4 +1,4 @@
-Age,Country,Streaming Platform,Top Genre,Minutes Streamed Per Day,Number of Songs Liked,Most Played Artist,Subscription Type
+Age,Country,Streaming_Platform,Top_Genre,Minutes_Streamed,Number_Songs_Liked,Most_Played_Artist,Subscription_Type
 34,Japan,Tidal,Reggae,295,138,Adele,Free
 24,Germany,Deezer,Country,86,388,Ed Sheeran,Premium
 49,Germany,Deezer,Pop,363,368,Post Malone,Premium
@@ -4999,3 +4999,4 @@ Age,Country,Streaming Platform,Top Genre,Minutes Streamed Per Day,Number of Song
 27,Brazil,Amazon Music,Metal,568,277,Taylor Swift,Premium
 58,Canada,Amazon Music,EDM,523,492,Bad Bunny,Premium
 30,South Korea,YouTube,Rock,451,145,Adele,Premium
+
