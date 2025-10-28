@@ -1,49 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Document Title</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://cdn.jsdelivr.net/npm/vega@6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-lite@6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vega-embed@7"></script>
+        <script src="vega_lite_vis.js"></script>
+
+        <title>First Vega-Lite graph </title>
     </head>
     <body>
-        <h1>1. Heading 1</h1>
-        <h2>1.1 Heading 2</h2>
-        <h3>1.1.1 Heading 3</h3>
-        <h4>1.1.1.1 Heading 4</h4>
-        <h5>1.1.1.1.1 Heading 5</h5>
-        <h6>1.1.1.1.1.1 Heading 6</h6>
-        <div>
-            <h1>2. Table</h1>
-            <table  border="1" cellpadding="10%">
-                <tr>
-                    <th>
-                        First Name
-                    </th>
-                    <th>
-                        Last Name
-                    </th>
-                    <th>
-                        😁
-                    </th>
-                </tr>
-                <tr>
-                    <td>
-                        Data
-                    </td>
-                    <td>
-                        Data
-                    </td>
-                    <td>
-                        Data
-                    </td>
-                </tr>
-            </table>
-        </div>
-        <div style="color:rgb(38, 192, 64);">
-            <h1>3. Image</h1>
-            <img src="./catfish.jpg"/>
-        </div>
-        <div>
-            <h1>4. Hyperlink</h1>
-            <a href=" https://www.monash.edu/" target="_blank"><button style="color:rgb(33, 33, 158);">Monash Website</button></a>    
-        </div>
+        <h1>
+            Music Streaming Trends in Australia and Worldwide
+        </h1>
+        <p>
+            How has music changed over the years in Australia?
+        </p>
+        <div id="aria_stacked_bar" style="width: 50vw; height: 50vh;"></div>
+        <script type="text/javascript">
+            var vg_1 = "aria_stacked_bar.vl.json"
+            vegaEmbed('#aria_stacked_bar', vg_1)
+        </script>
+        <p>
+            Author: Yiyou Xu
+        </p>
+        <p>
+            Last Updated: 28/10/2025
+        </p>
+        <p>
+            ARIA Data: https://www.dropbox.com/scl/fo/4ijzb1i3ozav48fn4tb3t/AEsz8u89gHu3d-APwmenjs8?rlkey=a52tf1lxja3xb2t8oaxube8dk&e=2&dl=0
+        </p>
+        <p>
+            Listener Trend Data: https://www.kaggle.com/datasets/atharvasoundankar/global-music-streaming-trends-and-listener-insights/data
+        </p>
+        <div id="map" style-="width: 50vw; height: 50vh;"></div>
+        <script type="text/javascript">
+            var vg_2 = "map.vl.json"
+            vegaEmbed('#map', vg_2)
+        </script>
+
+
+
     </body>
 </html>
